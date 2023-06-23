@@ -6,5 +6,5 @@
 - `3-`[Colocando um protótico no ar](https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ)
 - `4-`[Aprofundando os conhecimentos](https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT) 
 - `5-` `Novas tecnologias`
-- ![HTML and CSS]![image](https://github.com/blackm5/html/assets/125949105/9bd552f2-426e-487a-ab28-32659f7cf780)
+- ![](![image](https://github.com/blackm5/html/assets/125949105/d21e6a6d-b284-4c44-a1f2-b0bc1e265cd8)
 
