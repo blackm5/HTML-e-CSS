@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Semântica</title>
+    <title>Formatação de Texto</title>
 </head>
-<style>
-    body {background-color: #8080da;}
-</style>
 <body>
-    <p>
-        Eu moro na <address>Rua dos Capixabas, 229, Botafogo-RJ</address> <!--Em HTML5 é essencial o sentido, da tag e palavra, são dadas ênfases nesse sentido-->
-    </p>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/Destacado</h2>
+        <p>Nesta frase, temos um <u><b>termo em negrito</b></u> usando a tag <strong>&lt;b&gt;</strong>, <b>(não semântica)</b>;<br>Nesta frase, temos um <u><strong>termo em destaque</strong></u> usando a tag <strong>&lt;strong&gt;</strong>, <strong>(semântica)</strong>;</p>
+    <h2>Itálico/Êfase</h2>
+        <p>Nesta frase, temos um <u><i>termo em itálico</i></u> usando a tag <strong>&lt;i&gt;</strong>, <i>(não semântica)</i>.<br>Nesta frase, temos um <u><em>termo em ênfase</em></u> usando a tag <strong>&lt;em&gt;</strong>, <em>(semântica)</em>.</p>
+    <h2>Marcação</h2>
+        <p>Podemos criar também um <u><mark>texto marcado</mark></u> usando a tag <strong>&lt;mark&gt;</strong>.<br>E em outro parágrafo, temos outro <mark>texto marcado</mark>.</p>
+    <h2>Texto <big>Grande</big> e <small>Pequeno</small></h2>
+        <p>Criamos um <u><big>texto grande</big></u>, usando a tag <strong>&lt;big&gt;</strong>, e um <u><small>texto pequeno</small></u>, usando a tag <strong>&lt;small&gt;</strong>; neste parágrafo.</p>
+    <h2>Texto Deletado</h2>
+        <p>Podemos marca <u><del>um texto excluido</del></u>, usando a tag <strong>&lt;del&gt;</strong>, para lermos, mas não considera-lo.</p>
+    <h2>Texto Inserido</h2>
+        <p>Podemos marcar um <ins>texto como inserido </ins>para dar uma ênfase e indicar que ele foi adicionado depois usando a tag <strong>&lt;ins&gt;</strong>.<br>Existe também o <u>sublinhado</u> com a tag <strong>&lt;u&gt;</strong><strong>(não semântica)</strong></p>
+    <h2>Sobrescrit<sup>o</sup>/Subscrit<sub>o<sub></h2>
+        <p>e<sup>i</sup><sup>&#960;</sup>+1=0, com a tag <strong>&lt;sup&gt;</strong> para sobrescrever.<br>CO<sub>2</sub>+H<sub>2</sub>O = H<sub>2</sub>CO<sub>3</sub>, com a tag <strong>&lt;sub&gt;</strong> para sobscrever.</p>
 </body>
 </html>
