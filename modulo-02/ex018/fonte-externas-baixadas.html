@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @charset "UTF-8";
+        @font-face {
+            font-family: 'Ringo';
+            src: url('fonts/SaintCarell_PERSONAL_USE_ONLY.otf') format('opentype'), url('fonts/SaintCarellClean_PERSONAL_USE_ONLY.otf') format('opentype');
+        }
+        @font-face {
+            font-family: 'Mine';
+            src: url('fonts/Minecraft Evenings.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Rondos';
+            src: url('fonts/RONDOS.otf') format('opentype');
+        }
+        body {
+            font-family: 'Rondos', Helvetica, sans-serif;
+            font-weight: normal;
+            background-image: radial-gradient(circle, rgba(255, 0, 0, 0.904) 50%, rgba(255, 255, 0, 0.5), rgb(94, 93, 93));
+        }
+        h1 {
+            font-family: 'Ringo', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2 {
+            font-family: 'Ringo', Times, serif;
+            font-size: 2em;
+            font-weight: normal;
+        }
+        p#p {
+            font-family: 'Mine', Times, serif;
+            font-size: 1em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid recusandae, quia sed accusantium nam ea temporibus ipsa consequuntur adipisci tenetur tempore ad odio repellat quidem, soluta cumque sunt delectus.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, numquam corporis? Distinctio dignissimos nesciunt, quibusdam, blanditiis repellat ratione assumenda error a cum dolorem illum, cupiditate quia inventore odit quo et!</p>
+    <p id="p"><abbr title="Retorno ao Resumo"><a href="../Resumo.html" target="_self" rel="prev">Resumo</a></abbr></p>
+</body>
+</html>
