@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        * {text-decoration: none;}
+        body {background-image: linear-gradient(90deg, rgba(124, 124, 124, 0.507), rgba(0, 0, 0, 0.815)); background-attachment: fixed; font-family: 'Lobster', cursive; font-size: 2em;}
+        div {background-color: gray; text-align: center; height: 200px; width: 200px; display: inline-block; border: 1px solid rgb(48, 48, 48); padding: 10px; border-radius: 1000px;}
+        div#aa:hover { background-color: red; box-shadow: 5px 5px 10px rgba(129, 0, 0, 0.5);}
+        div#ab:hover { background-color: blue;box-shadow: 5px 5px 10px rgba(0, 9, 129, 0.5);}
+        div#bb:hover { background-color: yellow;box-shadow: 5px 5px 10px rgba(158, 129, 0, 0.5);}
+        a:hover {color:blue; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);}
+        /*background-attachment: fixed; // display: inline-block; // border: 1px solid rgb(48, 48, 48); // */
+    </style>
+</head>
+<body>
+    <div id="aa">01</div>
+    <div id="ab">02</div>
+    <div id="bb">03</div>
+    <p id="p"><abbr title="Retorno ao Resumo"><a href="../Resumo.html" target="_self" rel="prev">Resumo</a></abbr></p>
+</body>
+</html>
