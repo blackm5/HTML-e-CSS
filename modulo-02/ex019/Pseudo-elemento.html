@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo-elemento</title>
+    <style>
+        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+        body {font: normal 300 1.3em 'Reggae One', cursive,Arial; background-color: rgba(128, 128, 128, 0.308);}
+        h1 {font-size: 3em;}
+        #astronauta {color: black;}
+        #astronauta:hover {color: red; text-shadow: 2px 2px 5px rgb(80, 0, 0);}
+        #astronauta:after { 
+            content: " ";
+            width: 0%;
+            height: 100px;
+            background-image: linear-gradient(40deg, rgb(255, 156, 156), darkred);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: 0.5s ease-in-out;}
+        #astronauta:hover::after {width: 100%;}
+        a {text-decoration: none; color: blue;}
+        a:hover { text-shadow: 2px 2px 5px rgb(0, 0, 80); font-weight: bolder; font-size: 1.4em; text-decoration: underline;}
+        a:visited {color: darkblue;}
+        .pp::after {
+            content: " ";
+            width: 0%;
+            height: 100px;
+            background-image: linear-gradient(40deg, lightblue, darkblue);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .pp:hover::after {width: 100%;}
+    </style>
 </head>
 <body>
-    
+    <h1>Personalisando <a href="https://www.estudonauta.com/cursos/" target="_blank" rel="external" id="astronauta">Links</a></h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/html-css/" target="_blank" rel="external" class="pp">Repositório do Github</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external" class="pp">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external" class="pp">Site do CursoemVídeo</a></li>
+        <li><a href="https://www.estudonauta.com/cursos/" target="_blank" rel="external" class="pp">Estudonauta</a></li>
+    </ul>
+    <p id="p"><a href="../Resumo.html" target="_self" rel="prev">Resumo</a></p>
 </body>
 </html>
