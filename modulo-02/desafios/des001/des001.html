@@ -10,14 +10,166 @@
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
         @font-face {font-family: 'idroid';
                     src: url('fontes/idroid.otf') format('opentype');}
-            body {background-color: #85e0ad;}
-            header {box-sizing: content-box;  background-image: linear-gradient(180deg, #3cdb82, #1b5c39);}
-            .header {text-align: center; color: white; font: normal bold 48px 'Bebas Neue', sans-serif;}
-            #header {font-family: Arial, Helvetica, sans-serif; font-size: 19px;}
-            nav > a {display: inline-block; text-decoration: none; text-align: left; padding-left: 30px; color: #83E1AD;font: normal bold 16px Arial, Helvetica, sans-serif}
-            section {background-color: white; border-radius: 6px; float: center; text-indent: 20px;}
-            section > h1 { font-family: 'idroid',Arial, Helvetica, sans-serif; color:#1b5c39; font-size: 1.5em;}
-            section > h2 {font-family: 'idroid',Arial, Helvetica, sans-serif; color:#1b5c39; background-image: linear-gradient(40deg, #3cdb82, #ffffff);}
+        *{ margin: 0px; }
+            body {background-image: url(img/Cornmanthe3rd-Plex-Android-Android.96.png);}
+            header {
+                background-image: linear-gradient(180deg, #2fa866, #063d1e);
+                padding-top: 40px;
+                text-align: center;
+            }
+            header > h1 { 
+                color: white; 
+                font: normal 3em 'Bebas Neue', sans-serif;
+                text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+                margin-bottom: 20px;
+            }
+            header > p {
+                font-family: Arial, Helvetica, sans-serif; 
+                font-size: 1.2em; 
+                color: white;
+                padding-right: 10px;
+                padding-left: 10px;
+                margin: auto;
+                padding-bottom: 50px;
+                text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+            }
+            nav {
+                padding: 10px;
+                box-shadow:  2px 0px rgba(0, 0, 0, 0.315);
+                text-align: left;
+            }
+            nav > a {
+                text-decoration: none; 
+                padding: 10px; 
+                color: #83E1AD;
+                border-radius: 5px;
+                font: normal bold 16px Arial, Helvetica, sans-serif;
+                transition-duration: 0.5s;
+            }
+            nav > a:hover {
+                color: #063d1e;
+                background-color:#83E1AD;
+            }
+            main {
+                min-width: 300px;
+                max-width: 1000px;
+                margin: auto;
+                margin-bottom: 30px;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            img {
+                width: 100%;
+            }
+            #bugdroid   {
+                width: 20%;
+            }
+            article > h1 { 
+                font-family: 'idroid',Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                color:#063d1e; 
+                font-size: 1.8em;
+            }
+            article > h2 {
+                font-family: 'idroid',Arial, Helvetica, sans-serif;
+                font-size: 1.3em;
+                font-weight: normal;
+                text-indent: 8px;
+                color:#1b5c39; 
+                background-image: linear-gradient(40deg, #3cdb82, #ffffff);
+            }
+            article > p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                text-align: justify;
+                text-indent: 15px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                line-height: 1.5em;
+            }
+            .negrito {
+                font-weight: bold;
+                color:#1b5c39;}
+            a {
+                text-decoration: none;
+            }
+                .lin {
+                font-weight: bold;
+                color: #1b5c39;
+                background-color:#83E1AD;
+                border: 3px solid #83E1AD;
+            }
+            .lin:hover {
+                text-decoration: underline;
+            }
+            .lin::after {
+                content: '\00A0\1F517';
+            }
+            div {
+                background-color: #063d1e;
+                position: relative;
+                padding: 20px;
+                padding-bottom: 48%;
+                margin-left: -20px;
+                margin-right: -20px;
+            }
+            .video {
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                width: 90%;
+                height: 90%;
+            }
+            aside {
+                background-color: #85e0ad;
+                border-radius: 10px;
+                margin: 15px;
+            }
+            aside > h3 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                text-indent: 10px;
+                padding: 10px;               
+                color: white;
+                background-color:#1b5c39;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            aside > ul {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                padding: 5px;
+                line-height: 1.2em;
+                list-style-type: '\2714\00A0\00A0';
+                list-style-position: inside;
+                columns: 2
+            }
+            aside > p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                text-indent: 20px;
+                padding: 15px;
+                line-height: 1.2em;
+            }
+            footer > p  {
+                background-color: #063d1e;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                text-align: center;
+                padding: 5px;
+                color: white;
+            }
+            .footer {
+                color: white;
+                font-weight: bold;
+            }
+            .footer:hover {
+                color: #83E1AD;
+                text-decoration: underline;
+            }
     </style>
 </head>
 <body>
@@ -25,24 +177,84 @@
             <h1 class="header">CURIOSIDADES DA TECNOLOGIA</h1>
             <p class="header" id="header">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</p>
         <nav>
-            <a href="" target="_self" rel="next">Home</a>
-            <a href="" target="_self" rel="next">Notícias</a>
-            <a href="" target="_self" rel="next">Curiosidades</a>
-            <a href="" target="_self" rel="next">Fale Conosco</a>
+            <a href="#" target="_self" rel="next" class="nav">Home</a>
+            <a href="#" target="_self" rel="next" class="nav">Notícias</a>
+            <a href="#" target="_self" rel="next" class="nav">Curiosidades</a>
+            <a href="#" target="_self" rel="next" class="nav">Fale Conosco</a>
         </nav>
     </header>
     <main>
-        <section>
+        <article>
             <h1>História do Mascote do Android</h1>
-            <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google são um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+            <p>
+                Provavelmente você sabe que o sistema operacional <span class="negrito">Android</span>, mantido pelo <span class="negrito">Google</span> são um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+            </p>
             <h2>A Primeira Versão</h2>
-            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="" target="_blank" rel="external">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_blank" rel="external">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robó. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+            <p>
+                A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank" rel="external"><span  class="lin">Dan Morrill</span></a>. Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_blank" rel="external"><span  class="lin">Inkscape</span></a> (software livre para vetorização de imagens) e criou sua própria versão de robó. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
+            </p>
             <picture>
-                <source>
-                <img src="img/dan-droids.png" alt="">
+                <source media="(max-width: 670px)" srcset="img/dan-droids-pq.png">
+                <img src="img/dan-droids.png" alt="mascote">
             </picture>
-        </section>
+            <p>
+                Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <span class="negrito">Dandroids</span>.
+            </p>
+            <h2>Surge um novo mascote</h2>
+            <p>
+                A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/android" target="_blank" rel="external"><span  class="lin">Irina Blok</span></a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+            </p>
+            <picture>
+                <source media="(max-width: 670px)" srcset="img/irina-blok-pq.jpg">
+                <img src="img/irina-blok.jpg" alt="irina">
+            </picture>
+            <p>
+                A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong class="negrito">Bugdroid</strong>, o novo mascote do Android.
+            </p>
+            <picture>
+                <img src="img/bugdroid.png" alt="bugdroid" id="bugdroid">
+            </picture>
+            <p>
+                A principal inspiração para os traços do novo <strong class="negrito">Bugdroid</strong> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <strong class="negrito">Google</strong> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
+            </p>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=DfzFBpiF-Q0legoB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video"></iframe>
+            </div>
+            <aside>
+                <h3>Quer aprender mais?</h3>
+                <p>
+                    Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+                </p>
+                <ul>
+                    <li>1.5 - <abbr title="Bolo de Copo">Cupcake</abbr></li>
+                    <li>1.6 - <abbr title="Rosquinha">Donut</abbr></li>
+                    <li>3.0 - <abbr title="Bomba">Eclair</abbr></li>
+                    <li>2.2 - <abbr title="Iorgute Congelado">Froyo</abbr></li>
+                    <li>2.3 - <abbr title="Biscoito de Gengibre">Gingerbread</abbr></li>
+                    <li>3.0 - <abbr title="Favo de Mel">Honeycomb</abbr></li>
+                    <li>4.0 - <abbr title="Sandwich de Sorvete">Ice Cream Sandwich</abbr></li>
+                    <li>4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
+                    <li>4.4 - <abbr title="KitKat">KitKat</abbr></li>
+                    <li>5.0 - <abbr title="Pirulito">Lolipop</abbr></li>
+                    <li>6.0 - <abbr title="Marshmallow">Marshmallow</abbr></li>
+                    <li>7.0 - <abbr title="Torrone">Nougat</abbr></li>
+                    <li>8.0 - <abbr title="Oreo">Oreo</abbr></li>
+                    <li>9.0 - <abbr title="Torta">Pie</abbr></li>
+                </ul>
+                <p>
+                    Infelizmente, o <span class="negrito">Android Q</span> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao <span class="negrito">Android 10</span>.
+                </p>
+                <p>
+                    Acesse aqui o site <a href="https://www.android.com/intl/en_uk/history/#/donut" target="_blank" rel="external"><span  class="lin">Android History</span></a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
+                </p>
+            </aside>
+            <p>
+                Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema <span class="negrito">Android</span> e seu simpático mascote.
+            </p>
+        </article>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Site criado por <a href="https://gustavoguanabara.github.io/" target="_self" rel="external" class="footer">Gustavo Guanabara</a> para o <a href="https://www.youtube.com/cursoemvideo" target="_self" rel="external" class="footer">CursoemVideo</a></p>
+    </footer>
 </body>
 </html>
