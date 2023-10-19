@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de Iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            border: 1px solid red;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um Iframe</h1>
     <p>
         Acessando o site do 
-        <iframe src="https://cursoemvideo.com/" frameborder="1"></iframe>
+        <!--
+            Por padrão um iframe tem 300x150 px
+        -->
+        <iframe src="https://cursoemvideo.com/" frameborder="1">
+            <a href="https://cursoemvideo.com/" target="_blank" rel="externo">Curso em Vídeo</a>
+        </iframe>
         para aprender a programar.</p>
         <p>O site do 
             <iframe src="https://blackm5.github.io/villa-vino/" frameborder="1 "></iframe>
