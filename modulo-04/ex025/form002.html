@@ -7,18 +7,18 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p>
             <label for="iuso">Usuário: </label>
-            <input type="text" name="uso" id="iuso" required>
+            <input type="text" name="uso" id="iuso" required minlength="5" maxlength="15" size="15" placeholder="Nome do usuário" autocomplete="username"> <!---->
         </p>
         <p>
             <label for="isenha">Senha: </label>
-            <input type="password" name="senha" id="isenha" required>
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="8" placeholder="Senha com 8 dígitos" autocomplete="current-password"> <!---->
         </p>
         <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar"> <!---->
+            <input type="reset" value="Limpar"> <!---->
         </p>
     </form>
 </body>
