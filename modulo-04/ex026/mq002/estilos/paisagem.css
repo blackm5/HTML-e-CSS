@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* Para telas em paisagem (landscape)*/ 
+body {
+    background: url(../../img/cev-landscape.jpg) left bottom no-repeat fixed;
+    background-size: 100%;
+}
