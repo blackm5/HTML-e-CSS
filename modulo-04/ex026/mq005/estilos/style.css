@@ -1,4 +1,95 @@
 @charset "UTF-8";
-body {
-    background-color: lightgray;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    background: black url(https://imgs.search.brave.com/Sx-hQsep4b4dLC1pH3nixJRXuL0xGMzQ24hQ3-kZRvE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2VkLzg3/LzFjL2VkODcxY2Rl/OWVmMTE5YjA5Njk2/NjA4NTViNWQ2YWUx/LmpwZw) center center no-repeat fixed;
+    background-size: cover;
+}
+header {
+    background-image: radial-gradient(rgb(150, 0, 0), rgb(255, 102, 0));
+}
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+span#list-burguer { 
+    background-color: rgb(119, 0, 0);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /**/
+}
+span#list-burguer:hover {
+    background-color: rgb(204, 202, 202);
+    color: rgb(119, 0, 0);
+}
+menu {
+    display: none;
+}
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(214, 114, 0);
+    color: white;
+    text-align: center;
+    border: solid 1px gray;
+}
+menu > ul > li > a:hover {
+    background-color: rgb(255, 0, 0);
+}
+main {
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.795);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}
+main > h1,h2 {
+    padding-bottom: 10px;
+}
+article > h3 {
+    padding: 10px;
+}
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+article > div {
+    width: 350px;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(119, 119, 119, 0.411);
+}
+div#folha {
+    background: white url(https://imgs.search.brave.com/pGrI9kkDBWi70vw4YjutaotPH68ngSGiTZGcpJpeJlY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jcml0/aWNhbGhpdHMuY29t/LmJyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIyLzA0L2tvbm9o/YS5qcGc) center center no-repeat scroll;
+    background-size: cover;
+}
+div#nuvem {
+    background: white url(https://nerdhits.com.br/wp-content/uploads/2022/12/aldeia-oculta-da-nuvem.jpg) center center no-repeat scroll;
+    background-size: cover;
+}
+div#areia {
+    background: white url(https://pm1.aminoapps.com/6463/fcecae643060ca6f7f156f68f44816660914f812_00.jpg) center center no-repeat scroll;
+    background-size: cover;
+}
+div#pedra {
+    background: white url(https://nerdhits.com.br/wp-content/uploads/2022/12/vila-pedra.jpg) center center no-repeat scroll;
+    background-size: cover;
+}
+div#nevoa {
+    background: white url(https://nerdhits.com.br/wp-content/uploads/2022/12/aldeia-da-nevoa.jpg) center center no-repeat scroll;
+    background-size: cover;
 }
