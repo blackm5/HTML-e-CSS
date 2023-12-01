@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@media print {
+    header {
+        display: none;
+    }
+    main::after {
+        content: 'Conteudo com fins pedagógicos [PROIBIDO A COMERCIALIZAÇÃO!]';
+    }
+}
+@media screen and (max-width: 320px){
+    main {
+        width: 85vw;
+    }
+    article > div, div#titulo {
+        width: 250px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px){
+    main {
+        width: 85vw;
+    }
+    article > div, div#titulo {
+        width: 290px;
+        height: 200px;
+    }
+}
+@media screen and (min-width: 768px) {
+    span#list-burguer {
+        display: none;
+    }
+    menu {
+        padding: 5px;
+        display: block;
+    }
+    menu > ul >li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    main {
+        width: 700px;
+    }
+    article > div {
+        width: 550px;
+        height: 300px;
+    }
+}

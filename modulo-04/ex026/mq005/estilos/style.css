@@ -11,9 +11,8 @@ body, html {
 header {
     background-image: radial-gradient(rgb(150, 0, 0), rgb(255, 102, 0));
 }
-header > h1 {
-    padding: 10px;
-    text-align: center;
+header {
+    padding: 5px;
 }
 span#list-burguer { 
     background-color: rgb(119, 0, 0);
@@ -26,6 +25,8 @@ span#list-burguer {
 span#list-burguer:hover {
     background-color: rgb(204, 202, 202);
     color: rgb(119, 0, 0);
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.897);
 }
 menu {
     display: none;
@@ -44,6 +45,8 @@ menu > ul > li > a {
 }
 menu > ul > li > a:hover {
     background-color: rgb(255, 0, 0);
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.897);
 }
 main {
     width: 90vw;
@@ -53,6 +56,8 @@ main {
     border-radius: 10px;
     margin-top: 10px;
     color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 main > h1,h2 {
     padding-bottom: 10px;
@@ -72,6 +77,14 @@ article > div {
     margin: auto;
     margin-bottom: 20px;
     box-shadow: 2px 2px 5px rgba(119, 119, 119, 0.411);
+}
+div#titulo {
+    background: url(https://imgs.search.brave.com/ov-JzDX3lcBvkf4V2x0SUd6eEQRVjrtiJFZ-ENwvXTk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZXBuZ2xvZ29z/LmNvbS91cGxvYWRz/L25hcnV0by9uYXJ1/dG8tbG9nby04LnBu/Zw) center center no-repeat scroll;
+    background-size: contain;
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 0px;
 }
 div#folha {
     background: white url(https://imgs.search.brave.com/pGrI9kkDBWi70vw4YjutaotPH68ngSGiTZGcpJpeJlY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jcml0/aWNhbGhpdHMuY29t/LmJyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIyLzA0L2tvbm9o/YS5qcGc) center center no-repeat scroll;
