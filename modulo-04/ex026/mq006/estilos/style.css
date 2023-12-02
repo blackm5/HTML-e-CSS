@@ -24,22 +24,29 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
+    /*-----(((((((((((((((((((((( Técnica Flexbox )))))))))))))))))))-----*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*-----(((((((((((((((((((((( Técnica Flexbox )))))))))))))))))))-----*/
 }
 section#login {
-    position: absolute;
+    /*position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden; /**/
+    transform: translate(-50%, -50%);*/
+    overflow: hidden; /*----- Ocultar oque ficar fora da borda -----*/
     background-color: var(--branco);
     height: 500px;
     width: 250px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.450);
+    transition: width 0.5s, heigth 0.5s;/*-- Transição de largura e altura --*/
+    transition-timing-function: ease;/*----- Suavização da Transição -----*/
 }
 section#login > div#img {
     display: block;
-    background: var(--lilas) url(../img/nyantocat.gif) right center no-repeat fixed;
+    background: var(--lilas) url(../img/nyantocat.gif) right center no-repeat scroll;
     background-size: cover;
     height: 200px;
 }
