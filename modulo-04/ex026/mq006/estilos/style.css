@@ -11,9 +11,10 @@
     box-sizing: border-box;
 }
 :root {
-    --verde:#49a09d;
+    --verde:#00a7a1;
     --lilas:#7800c9;
     --branco:#ffffff;
+    --v2:#004c50;
 }
 html, body {
     background-color: var(--lilas);
@@ -37,7 +38,7 @@ section#login {
     transform: translate(-50%, -50%);*/
     overflow: hidden; /*----- Ocultar oque ficar fora da borda -----*/
     background-color: var(--branco);
-    height: 500px;
+    height: 515px;
     width: 250px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.450);
@@ -61,4 +62,53 @@ div#form > h1 {
 div#form > p {
     text-align: center;
     font-size: 1em;
+}
+form > div.usu {
+    background-color: var(--lilas);
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: var(--branco);
+    padding: 5px;
+    margin: 5px 0px;
+}
+form > input {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--verde);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: var(--v2);
+    color: var(--verde);
+    border: 1px solid var(--lilas);
+    text-decoration: underline;
+    transition: 0.4s;
+}
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: var(--branco);
+    text-decoration: none;
+    background-color: var(--verde);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+form > a.botao:hover {
+    background-color: var(--v2);
+    color: var(--verde);
+    border: 1px solid var(--lilas);
+    text-decoration: underline;
+    transition: 0.4s;
 }

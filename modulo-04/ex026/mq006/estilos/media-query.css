@@ -27,6 +27,11 @@
     div#form > p {
         font-size: 1.2em;
     }
+    section#login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (min-width: 992px){
     section#login {
@@ -49,5 +54,10 @@
     }
     div#form > p {
         font-size: 1.4em;
+    }
+    section#login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
